@@ -1,1 +1,42 @@
+# No .pyc files
+*.pyc
 
+# Apache server files
+wsgi.py
+/conf
+
+# Local Settings file
+local.py
+
+# Migrations
+*/migrations
+
+# CSV and Excel Files
+*.csv
+*.xlsx
+
+# Celery Files
+celerybeat.pid
+celerybeat-schedule
+
+# Local Database
+/pysqlite2-doc
+
+# IntelliJ
+.idea/
+
+# Log Files
+*.log
+
+# Log Rotate Files
+*.log.*
+
+# Other Relevant Folders
+/bin
+/lib
+/include
+/local
+/README
+/LICENSE
+/devdocs
+/share
